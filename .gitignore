@@ -1,0 +1,6 @@
+/frontend/node_modules
+/frontend/.env
+
+/frontend/terraform/.terraform
+/frontend/terraform/.terraform.lock.hcl
+/frontend/build
