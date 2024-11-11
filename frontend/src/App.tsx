@@ -10,6 +10,9 @@ function App() {
         <p>
           Your React app is running on AWS! 🚀
         </p>
+        <p>
+          I just made changes to my app locally and they are now live on AWS!
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
