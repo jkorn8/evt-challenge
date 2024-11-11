@@ -26,6 +26,12 @@ jobs:
         run: |
           npm install
           npm run build
+      
+      - name: Test Environment Variables
+        run: |
+          echo ${{ secrets.AWS_S3_BUCKET }}
+          echo ${{ secrets.AWS_ACCESS_KEY }}
+          echo ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
       - uses: jakejarvis/s3-sync-action@master
         name: Upload to S3
