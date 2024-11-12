@@ -1,0 +1,8 @@
+{
+    "body": {
+        "spellName": "expelliarmus",
+        "spellType": "defensive",
+        "spellEffect": "disarm",
+        "color": "red"
+    }
+}
