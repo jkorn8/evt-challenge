@@ -14,5 +14,8 @@ For the frontend, I build a simple React app with Typescript. This web app is th
 ### How long did this take?
 I was working off and on on the project for half of Sunday, and half of Tuesday, so collectively I would say this took me about 5 hours.
 
+### Why did I chose these technologies?
+It is what I am familiar with! I have been working to build experience in AWS, Terraform, and React for the past 4 years and I wanted to show off what I could do in a short period of time.
+
 ### Further Questions
 If further testing is needed, I can provide the link to my API in the cloud along with the API key which I stored in an .env file and did not upload to GitHub. Also if you have any other questions, feel free to reach out to me at josh.korngiebel@gmail.com.
