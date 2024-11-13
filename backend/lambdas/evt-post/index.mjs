@@ -43,7 +43,7 @@ const apiResponse = (statusCode, body) => {
       "Access-Control-Allow-Headers" : "Content-Type",
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Methods": "OPTIONS,POST,GET",
-      "Access-Control-Allow-Credentials": true, // Required for cookies, authorization headers with HTTPS
+      "Access-Control-Allow-Credentials": true,
     },
     body: JSON.stringify(body)
   };
