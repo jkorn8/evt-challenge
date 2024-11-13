@@ -5,7 +5,7 @@ import Color from './types/Color';
 import Modal from 'react-modal';
 import axios from 'axios';
 
-const validColors: Color[] = ["red", "blue", "green", "yellow", "purple", "orange", "black", "white", "brown", "pink"];
+const validColors: Color[] = ["Red", "Blue", "Green", "Yellow", "Purple", "Orange", "Black", "White", "Brown", "Pink"];
 
 export const App = () => {
 
@@ -64,7 +64,7 @@ export const App = () => {
   return (
     <div className="App">
       <header>
-        <h1>Harry Potter Spell Catologue</h1>
+        <h1>Harry Potter Spell Catalogue</h1>
         <div className='rightColumn'>
           <a href="https://github.com/jkorn8/evt-challenge" target="_blank" rel="noopener noreferrer">
             <img src='githubLogo.png' alt='Github' height='40vh' />
@@ -72,14 +72,13 @@ export const App = () => {
         </div>
       </header>
       <div className="content">
-        <h2>Full list of spells:</h2>
+        <h2>List of spells</h2>
         {loading ? <h2>Loading...</h2> : <table>
           <thead>
             <tr>
-              <th>ID</th>
+              <th>Id</th>
               <th>Spell Name</th>
               <th>Color</th>
-              {/* <th></th> */}
             </tr>
           </thead>
           <tbody>
@@ -88,7 +87,6 @@ export const App = () => {
                 <td>{spellId}</td>
                 <td>{spellName}</td>
                 <td style={{ color: color }}>{color}</td>
-                {/* <td><button>Delete</button></td> */}
               </tr>
             ))}
           </tbody>
@@ -132,6 +130,10 @@ export const App = () => {
           </div>
         </Modal>
       </div>
+      <footer>
+        <b>Coding Challenge by Josh Korngiebel</b>
+        Designed and developed as part of an application for Enterprise Vision Technologies. <br />
+      </footer>
     </div>
   );
 }

@@ -1,3 +1,3 @@
-type Color = "red" | "blue" | "green" | "yellow" | "purple" | "orange" | "black" | "white" | "brown" | "pink";
+type Color = "Red" | "Blue" | "Green" | "Yellow" | "Purple" | "Orange" | "Black" | "White" | "Brown" | "Pink";
 
 export default Color;

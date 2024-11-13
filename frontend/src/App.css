@@ -11,7 +11,7 @@
 
 header {
   background-color: #282c34;
-  min-height: 15vh;
+  height: 15vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -24,7 +24,7 @@ h2 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: white;
   width: 70vw;
 }
@@ -32,6 +32,11 @@ h1 {
 h2 {
   font-size: 2.5rem;
   color: #282c34;
+}
+
+.content {
+  overflow: scroll;
+  height: 75vh;
 }
 
 .rightColumn {
@@ -83,6 +88,11 @@ td {
   padding: 12px 15px;
 }
 
+th {
+  font-family: 'HarryPotterFont', sans-serif;
+  font-size: 1.5rem;
+}
+
 
 tbody tr {
   border-bottom: 1px solid #dddddd;
@@ -103,4 +113,16 @@ select {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #528bff;
+}
+
+footer {
+  background-color: #282c34;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 10px;
+  color: white;
+  align-self: baseline;
 }
