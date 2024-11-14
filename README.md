@@ -4,7 +4,7 @@
 This is my submission for the EVT Technology Challenge! I chose to deploy my website with AWS Cloudfront and AWS S3. The code for every piece of my application is stored here and managed either through Terraform or GitHub Actions. You can access my website [here!](https://testbucket1282002.s3.us-west-1.amazonaws.com/index.html)
 
 ### What did I make?
-I am a huge Harry Potter fan, so I made a simple web application that provides the ability to create, and list table rows within a database. I used Harry Potter Spells to have some fun with a use-case, but this generic structure could be used for any use-case. If I continued to develop this project, I would next add functionality to update and delete spells to have full CRUD operations.
+I made a simple web application that provides the ability to create, and list table rows within a database. I used Harry Potter Spells to have some fun with a use-case, but this generic structure could be used for any use-case. If I continued to develop this project, I would next add functionality to update and delete spells to have full CRUD operations.
 
 ### Tech Stack
 I wanted to take things to the next step and deploy a full stack application! I built the backend using AWS Lambda, DynamoDB, and API Gateway, and tested my code locally with AWS SAM and docker. After testing my code, I deployed it using Terraform. 
