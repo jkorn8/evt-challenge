@@ -21,14 +21,11 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Create .env file
-        working-directory: ./frontend
-        run: |
-          echo "REACT_APP_API_URL=${{ secrets.REACT_APP_API_URL }}" >> .env
-          echo "REACT_APP_AWS_API_KEY=${{ secrets.REACT_APP_AWS_API_KEY }}" > .env
-
       - name: Install dependencies and build
         working-directory: ./frontend
+        env:
+          REACT_APP_API_URL: ${{ secrets.REACT_APP_API_URL }}
+          REACT_APP_AWS_API_KEY: ${{ secrets.REACT_APP_AWS_API_KEY }}
         run: |
           npm install
           npm run build
