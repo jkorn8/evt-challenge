@@ -56,7 +56,6 @@ export const App = () => {
   };
 
   useEffect(() => {
-    console.log("This is the newest version of the app.");
     setLoading(true);
     axios.defaults.headers.common['x-api-key'] = `${process.env.REACT_APP_AWS_API_KEY}`;
     getSpells().finally(() => setLoading(false));
