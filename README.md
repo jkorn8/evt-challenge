@@ -1,7 +1,7 @@
 [![Deploy Website to AWS S3](https://github.com/jkorn8/evt-challenge/actions/workflows/main.yaml/badge.svg)](https://github.com/jkorn8/evt-challenge/actions/workflows/main.yaml)
 
 # EVT Technology Challenge
-This is my submission for the EVT Technology Challenge! I chose to deploy my website with AWS Cloudfront and AWS S3. The code for every piece of my application is stored here and managed either through Terraform or GitHub Actions. You can access my website [here!](https://testbucket1282002.s3.us-west-1.amazonaws.com/index.html)
+This is my submission for the EVT Technology Challenge! I chose to deploy my website with AWS Cloudfront and AWS S3. The code for every piece of my application is stored here and managed either through Terraform or GitHub Actions. You can access my website [here!](https://d3mzzn9qw2asif.cloudfront.net/index.html)
 
 ### What did I make?
 I made a simple web application that provides the ability to create, and list table rows within a database. I used Harry Potter Spells to have some fun with a use-case, but this generic structure could be used for any use-case. If I continued to develop this project, I would next add functionality to update and delete spells to have full CRUD operations.
